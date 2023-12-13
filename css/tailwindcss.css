@@ -1473,6 +1473,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
