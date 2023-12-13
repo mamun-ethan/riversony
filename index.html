@@ -16,22 +16,19 @@
   <title>Welcome to RiverSony</title>
   <link href="images/River-Sony-Logo-.webp" rel="shortcut icon" type="image/vnd.microsoft.icon" />
   
-  <!-- Font Family -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
-  
-  
+<!-- Font Family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+ 
     <!-- main css -->
     <link rel="stylesheet" href="css/frontend/main.css">
   
         <!-- tailwindcss -->
         <link rel="stylesheet" href="./css/tailwindcss.css">
 
-        <link rel="stylesheet" href="./css/testimonials.css">
 
-  <!-- Facebook Pixel Code -->
-  
+
 
   <!-- facebookdomain -->
   
@@ -59,22 +56,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     width: auto;
     padding: 6px 15px;
     margin-bottom: 10px;
-}
-  </style>
-  
-</head>
-<body class="home-page " style="font-family: 'Montserrat', sans-serif !important;  " >
-  <div class="main-body-wrapper">
-  <div class="body-wrapper">
-  
     
+}
+
+  </style>
+  <link rel="stylesheet" href="./css/testimonials.css">
+      
 <link rel="stylesheet" href="css/splide.min.css">
 <script src="js/splide.min.js"></script>
 
-<!-- Header -->
+  
+</head>
+<body class="home-page" style="font-family: 'Montserrat', sans-serif;  "  >
+  <div class="main-body-wrapper">
+  <div class="body-wrapper">
+  
 
 <!-- Header -->
-<header id="main-header" style="background-color: #262932;"  class="fullwidth  text-white border-b">
+
+
+<!-- Header -->
+<header id="main-header" style="background: #0000007d; position: absolute !important;width: 100% !important;"  class="text-white border-b">
   <!-- sub header -->
  <div class=" bg-[#232933] px-3 mx-auto">
   <div class="sub-header flex flex-wrap justify-between py-2 ">
@@ -383,14 +385,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </div>
-<div class="offcanvas-overaly"></div> 
-
+<div class="offcanvas-overaly"></div>
 <!-- #Start Main Body  -->
 
 
+<!-- Hero Section -->
+<div class="hero-section mb-8">    
+<div class="fullwidth">
+  
+  <div class="splide hero-slider full-width-slider">
+    <div class="splide__track">
+      <ul class="splide__list" style="height: 550px;width: 100%;">
+        <li class="splide__slide" style="position: relative;">
+          <img src="./assets/products/Buy1-Get-28ml-(1).webp" style="height: 100%;width: 100%;" alt="Slide 1">
+          <div class="slide-text" style="position: absolute;top:50%;font-size: 60px;font-weight: bold;left: 50px;"> <span>text here</span>
+            <p class="text-lg">text here</p></div>
+        </li>
+        <li class="splide__slide" style="position: relative;">
+          <img src="./assets/products/Buy1-Get-28ml-(1).webp" style="height: 100%;width: 100%;" alt="Slide 1">
+          <div class="slide-text" style="position: absolute;top:50%;font-size: 60px;font-weight: bold;left: 80px;"> <span>text here</span>
+            <p class="text-lg">text here</p></div>
+        </li>
+        <li class="splide__slide" style="position: relative;">
+          <img src="./assets/products/Buy1-Get-28ml-(1).webp" style="height: 100%;width: 100%;" alt="Slide 1">
+          <div class="slide-text" style="position: absolute;top:50%;font-size: 60px;font-weight: bold;left: 50px;"> <span>text here</span>
+            <p class="text-lg">text here</p></div>
+        </li>
+        <li class="splide__slide" style="position: relative;">
+          <img src="./assets/products/Buy1-Get-28ml-(1).webp" style="height: 100%;width: 100%;" alt="Slide 1">
+          <div class="slide-text" style="position: absolute;top:50%;font-size: 60px;font-weight: bold;left: 80px;">
+            <span>text here</span>
+            <p class="text-lg">text here</p>
+          </div>
+        </li>
+        <!-- Add more slides as needed -->
+      </ul>
+     
+    </div>
+  </div>
+</div>
+</div>
+
 
 <!-- about us -->
-<div class="about-us-section bg-[#ffdfd5] py-20">
+<div class="about-us-section bg-[#ffdfd5] my-36">
   <div class="container mx-auto px-4">
     <div class="about px-5 md:grid md:grid-cols-12">
       <div class="md:col-span-8 px-5">
@@ -423,9 +461,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 </div>
 
-  
    <!-- products -->
-   <div class="category_section bg-[#272932] text-white py-10 pb-28">
+   <div class="category_section bg-[#272932] text-white mt-32 pb-28">
     <div class="container mx-auto px-4">
      <h4 class="uppercase shape pt-5 bottom-underline text-xl md:text-2xl text-center tracking-widest font-bold">our products</h4>
      
@@ -480,7 +517,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    
   <!-- Testimonials -->
   
-  <div class="container px-5 my-8 mx-auto">
+  <div class="container px-5  mx-auto my-36">
     <div class="text-center mb-4 md:mb-7">
       <h4 class="uppercase shape bottom-underline text-xl md:text-2xl tracking-widest font-bold">Testimonials</h4>
   </div>
@@ -574,287 +611,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
   
+
+
+
+  <!-- Our clients -->
   
-    <!-- Our clients -->
-    
-   <div class="bg-[#f6f6f3]">
-    <div class="wh-sponsor container py-16">
-      <div class="text-center mb-4 md:mb-7">
-          <h4 class="uppercase shape bottom-underline text-xl md:text-2xl  tracking-widest font-bold">Our clients</h4>
-      </div>
-    
-      <div class="splide brands-slider">
-        <div class="splide__track">
-          <div class="splide__list">
-            
-            
-            <div class="splide__slide">
-              <div class="p-3">
-                
-                <img src="images/brands/logo-header-black-2022-dec-01.webp" alt="Believers Sign">
-                
-              </div>
+  <div class="wh-sponsor bg-[#f6f6f3] container mb-32 py-16">
+    <div class="text-center mb-4 md:mb-7">
+        <h4 class="uppercase shape bottom-underline text-xl md:text-2xl  tracking-widest font-bold">Our clients</h4>
+    </div>
+  
+    <div class="splide brands-slider">
+      <div class="splide__track">
+        <div class="splide__list">
+          
+          
+          <div class="splide__slide">
+            <div class="p-3">
+              
+              <img src="images/brands/logo-header-black-2022-dec-01.webp" alt="Believers Sign">
+              
             </div>
-            
-            
-            <div class="splide__slide">
-              <div class="p-3">
-                
-                <img src="images/brands/River-Sony-Logo-transparent-bg.webp" alt="River Sony">
-                
-              </div>
-            </div>
-            
           </div>
+          
+          
+          <div class="splide__slide">
+            <div class="p-3">
+              
+              <img src="images/brands/River-Sony-Logo-transparent-bg.webp" alt="River Sony">
+              
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
-   </div>
-<!-- Footer -->
-
-
-<!-- New Js Library -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="./js/testimonials.js"></script>
-
-<!-- with conditon if has -->
-<!-- <script src="/js/jquery.fillcolor.js"></script> -->
-<script>
-  const offer1 = document.querySelector('.offer1');
-  const offer2 = document.querySelector('.offer2');
-  const offer3 = document.querySelector('.offer3');
-  const latestProducts = document.querySelector(`.new`);
-  const brandsSlider = document.querySelector('.brands-slider');
-  const heroSlider = document.querySelector('.hero-slider');
-  const categoriesSlider = document.querySelector('.categories-slider');
-  const sliderFillColor = false;
-
-  let timeOutInterval = 2000;
-  if(offer1) {
-    new Splide( offer1, {
-      type   : 'loop',
-      perPage: Number(`6`),
-      perMove: 1,
-      gap    : '1rem',
-      speed: 400,
-      autoplay: true,
-      interval: timeOutInterval,
-      pagination: false,
-      pauseOnHover: true,
-      rewind: true,
-      lazyLoad: 'nearby',
-      gap    : '1rem',
-      breakpoints: {
-      '1024': {
-        perPage: Number(`3`),
-      },
-      '768': {
-        perPage: Number(`2`),
-      },
-    }
-    }).mount(); 
-    timeOutInterval += 500;
-  }
-  if(offer2) {
-    new Splide( offer2, {
-      type   : 'loop',
-      perPage: Number(`6`),
-      perMove: 1,
-      gap    : '1rem',
-      speed: 400,
-      autoplay: true,
-      interval: timeOutInterval,
-      pagination: false,
-      pauseOnHover: true,
-      rewind: true,
-      lazyLoad: 'nearby',
-      breakpoints: {
-      '1024': {
-        perPage: Number(`3`),
-      },
-      '768': {
-        perPage: Number(`2`),
-      },
-    }
-    }).mount(); 
-    timeOutInterval += 500;
-  }
-  if(offer3) {
-    new Splide( offer3, {
-      type   : 'loop',
-      perPage: Number(`6`),
-      perMove: 1,
-      gap    : '1rem',
-      speed: 400,
-      autoplay: true,
-      interval: timeOutInterval,
-      pagination: false,
-      pauseOnHover: true,
-      rewind: true,
-      lazyLoad: 'nearby',
-      breakpoints: {
-      '1024': {
-        perPage: Number(`3`),
-      },
-      '768': {
-        perPage: Number(`2`),
-      },
-    }
-    }).mount(); 
-    timeOutInterval += 500;
-  }
-  if(latestProducts) {
-    new Splide( latestProducts, {
-      type   : 'loop',
-      perPage: Number(`6`),
-      perMove: 1,
-      gap    : '1rem',
-      speed: 400,
-      autoplay: true,
-      interval: timeOutInterval,
-      pagination: false,
-      pauseOnHover: true,
-      rewind: true,
-      lazyLoad: 'nearby',
-      breakpoints: {
-      '1024': {
-        perPage: Number(`3`),
-      },
-      '768': {
-        perPage: Number(`2`),
-      },
-    }
-    }).mount(); 
-    timeOutInterval += 500;
-  }
-
-  if(brandsSlider){
-    new Splide( '.brands-slider' , {
-      type   : 'loop',
-      perPage: 4,
-      perMove: 1,
-      speed: 400,
-      gap    : '1rem',
-      autoplay: true,
-      interval: 2000,
-      arrows: false,
-      pagination: true,
-      pauseOnHover: true,
-      rewind: true,
-      lazyLoad: 'nearby',
-      breakpoints: {
-      '1024': {
-        perPage: 4,
-        gap    : '1rem',
-      },
-      '768': {
-        perPage: 3,
-        gap    : '1rem',
-      },
-      '480': {
-        perPage: 2,
-        gap    : '7px',
-      },
-    }
-    }).mount();
-  }
-
-  if(heroSlider){
-    if(sliderFillColor) {
-      $('.hero-slider .splide__slide.product').fillColor();
-    }
-    
-    new Splide( '.hero-slider' , {
-      type   : 'loop',
-      perPage: 1,
-      perMove: 1,
-      speed: 400,
-      gap    : '1rem',
-      autoplay: true,
-      interval: 2500,
-      pagination: true,
-      arrows: false,
-      pauseOnHover: true,
-      rewind: true,
-      lazyLoad: 'nearby'
-    }).mount();
-  }
-
-  if(categoriesSlider){
-    new Splide( '.categories-slider' , {
-      type   : 'loop',
-      perPage: 5,
-      perMove: 1,
-      speed: 400,
-      gap    : '2rem',
-      autoplay: false,
-      interval: 2500,
-      pagination: false,
-      pauseOnHover: true,
-      rewind: true,
-      lazyLoad: 'nearby',
-      breakpoints: {
-      '1024': {
-        perPage: 4,
-        gap    : '1rem',
-      },
-      '768': {
-        perPage: 3,
-        gap    : '1rem',
-        pagination: true,
-        arrows: false,
-      },
-      '480': {
-        perPage: 2,
-        pagination: true,
-        arrows: false,
-        gap    : '7px',
-      },
-     }
-    }).mount();
-  }
-
-  // promotions countdown js
-  const totalPromotions =  Number($('.all-promotions-wrap').attr('data-promotions-length'));
-  
-  function timerFun (dom) {
-    const promotionTime = document.querySelector(dom)
-    const finaleDate = new Date(promotionTime.dataset.promotiondatetime).getTime();
-    
-    const timer = () => {
-        const now = new Date().getTime();
-        let diff = finaleDate - now;
-        
-        if(diff > 0) {
-          let days = Math.floor(diff / (1000*60*60*24));
-          let hours = Math.floor(diff % (1000*60*60*24) / (1000*60*60));
-          let minutes = Math.floor(diff % (1000*60*60)/ (1000*60));
-          let seconds = Math.floor(diff % (1000*60) / 1000);
-  
-          days <= 99 ? days   = `${days}` : days;
-          days <= 9 ? days    = `0${days}` : days;
-          hours <= 9 ? hours  = `0${hours}` : hours;
-          minutes <= 9 ? minutes = `0${minutes}` : minutes;
-          seconds <= 9 ? seconds = `0${seconds}` : seconds;   
-  
-          document.querySelector(`${dom} #days`).textContent = days > 0 ? days : 00;
-          document.querySelector(`${dom} #hours`).textContent = hours;
-          document.querySelector(`${dom} #minutes`).textContent = minutes;
-          document.querySelector(`${dom} #seconds`).textContent = seconds;
-        } else {
-          $(dom).parent().parent().addClass('expired');
-        }
-    }
-    timer();
-    setInterval(timer,1000);
-  };
-
-  for (let i = 0; i < totalPromotions; i++) {
-    timerFun('#promotion-datetime' + i);
-  }
-</script>
   </div>
+
+
 </div>
+
+
+
+
+<!-- footer -->
 
 <footer class="wh-footer bg-[#232933] text-white">
   <div class="container">
@@ -963,8 +763,251 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   
 </footer> 
+<!-- New Js Library -->
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<!-- with conditon if has -->
+<!-- <script src="/js/jquery.fillcolor.js"></script> -->
+<script>
+  const offer1 = document.querySelector('.offer1');
+  const offer2 = document.querySelector('.offer2');
+  const offer3 = document.querySelector('.offer3');
+  const latestProducts = document.querySelector(`.new`);
+  const brandsSlider = document.querySelector('.brands-slider');
+  const heroSlider = document.querySelector('.hero-slider');
+  const categoriesSlider = document.querySelector('.categories-slider');
+  const sliderFillColor = false;
+
+  let timeOutInterval = 2000;
+  if(offer1) {
+    new Splide( offer1, {
+      type   : 'loop',
+      perPage: Number(`6`),
+      perMove: 1,
+      gap    : '1rem',
+      speed: 400,
+      autoplay: true,
+      interval: timeOutInterval,
+      pagination: true,
+      pauseOnHover: true,
+      rewind: true,
+      lazyLoad: 'nearby',
+      gap    : '1rem',
+      breakpoints: {
+      '1024': {
+        perPage: Number(`3`),
+      },
+      '768': {
+        perPage: Number(`2`),
+      },
+    }
+    }).mount(); 
+    timeOutInterval += 500;
+  }
+  if(offer2) {
+    new Splide( offer2, {
+      type   : 'loop',
+      perPage: Number(`6`),
+      perMove: 1,
+      gap    : '1rem',
+      speed: 400,
+      autoplay: true,
+      interval: timeOutInterval,
+      pagination: true,
+      pauseOnHover: true,
+      rewind: true,
+      lazyLoad: 'nearby',
+      breakpoints: {
+      '1024': {
+        perPage: Number(`3`),
+      },
+      '768': {
+        perPage: Number(`2`),
+      },
+    }
+    }).mount(); 
+    timeOutInterval += 500;
+  }
+  if(offer3) {
+    new Splide( offer3, {
+      type   : 'loop',
+      perPage: Number(`6`),
+      perMove: 1,
+      gap    : '1rem',
+      speed: 400,
+      autoplay: true,
+      interval: timeOutInterval,
+      pagination: t,
+      pauseOnHover: true,
+      rewind: true,
+      lazyLoad: 'nearby',
+      breakpoints: {
+      '1024': {
+        perPage: Number(`3`),
+      },
+      '768': {
+        perPage: Number(`2`),
+      },
+    }
+    }).mount(); 
+    timeOutInterval += 500;
+  }
+  if(latestProducts) {
+    new Splide( latestProducts, {
+      type   : 'loop',
+      perPage: Number(`6`),
+      perMove: 1,
+      gap    : '1rem',
+      speed: 400,
+      autoplay: true,
+      interval: timeOutInterval,
+      pagination: false,
+      pauseOnHover: true,
+      rewind: true,
+      lazyLoad: 'nearby',
+      breakpoints: {
+      '1024': {
+        perPage: Number(`3`),
+      },
+      '768': {
+        perPage: Number(`2`),
+      },
+    }
+    }).mount(); 
+    timeOutInterval += 500;
+  }
+
+  if(brandsSlider){
+    new Splide( '.brands-slider' , {
+      type   : 'loop',
+      perPage: 4,
+      perMove: 1,
+      speed: 400,
+      gap    : '1rem',
+      autoplay: true,
+      interval: 2000,
+      arrows: false,
+      pagination: true,
+      pauseOnHover: true,
+      rewind: true,
+      lazyLoad: 'nearby',
+      breakpoints: {
+      '1024': {
+        perPage: 4,
+        gap    : '1rem',
+      },
+      '768': {
+        perPage: 3,
+        gap    : '1rem',
+      },
+      '480': {
+        perPage: 2,
+        gap    : '7px',
+      },
+    }
+    }).mount();
+  }
+
+  if(heroSlider){
+    if(sliderFillColor) {
+      $('.hero-slider .splide__slide.product').fillColor();
+    }
+    
+    new Splide( '.hero-slider' , {
+      type   : 'false',
+      perPage: 1,
+      perMove: 1,
+      speed: 400,
+      gap    : '1rem',
+      autoplay: true,
+      interval: 2500,
+      pagination: true,
+      arrows: true,
+      pauseOnHover: false,
+      rewind: true,
+      lazyLoad: 'nearby'
+    }).mount();
+  }
+
+  if(categoriesSlider){
+    new Splide( '.categories-slider' , {
+      type   : 'loop',
+      perPage: 5,
+      perMove: 1,
+      speed: 400,
+      gap    : '2rem',
+      autoplay: false,
+      interval: 2500,
+      pagination: false,
+      pauseOnHover: true,
+      rewind: true,
+      lazyLoad: 'nearby',
+      breakpoints: {
+      '1024': {
+        perPage: 4,
+        gap    : '1rem',
+      },
+      '768': {
+        perPage: 3,
+        gap    : '1rem',
+        pagination: true,
+        arrows: false,
+      },
+      '480': {
+        perPage: 2,
+        pagination: true,
+        arrows: false,
+        gap    : '7px',
+      },
+     }
+    }).mount();
+  } 
+
+  // promotions countdown js
+  const totalPromotions =  Number($('.all-promotions-wrap').attr('data-promotions-length'));
+  
+  function timerFun (dom) {
+    const promotionTime = document.querySelector(dom)
+    const finaleDate = new Date(promotionTime.dataset.promotiondatetime).getTime();
+    
+    const timer = () => {
+        const now = new Date().getTime();
+        let diff = finaleDate - now;
+        
+        if(diff > 0) {
+          let days = Math.floor(diff / (1000*60*60*24));
+          let hours = Math.floor(diff % (1000*60*60*24) / (1000*60*60));
+          let minutes = Math.floor(diff % (1000*60*60)/ (1000*60));
+          let seconds = Math.floor(diff % (1000*60) / 1000);
+  
+          days <= 99 ? days   = `${days}` : days;
+          days <= 9 ? days    = `0${days}` : days;
+          hours <= 9 ? hours  = `0${hours}` : hours;
+          minutes <= 9 ? minutes = `0${minutes}` : minutes;
+          seconds <= 9 ? seconds = `0${seconds}` : seconds;   
+  
+          document.querySelector(`${dom} #days`).textContent = days > 0 ? days : 00;
+          document.querySelector(`${dom} #hours`).textContent = hours;
+          document.querySelector(`${dom} #minutes`).textContent = minutes;
+          document.querySelector(`${dom} #seconds`).textContent = seconds;
+        } else {
+          $(dom).parent().parent().addClass('expired');
+        }
+    }
+    timer();
+    setInterval(timer,1000);
+  };
+
+  for (let i = 0; i < totalPromotions; i++) {
+    timerFun('#promotion-datetime' + i);
+  }
+</script> 
+  </div>
+</div>
 <!-- //container  -->
 <script src="js/main.js"></script>
+<script src="./js/testimonials.js"></script>
+
 </body>
 
 <!-- Mirrored from riversony.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Dec 2023 18:17:08 GMT -->
