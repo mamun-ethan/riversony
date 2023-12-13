@@ -17,28 +17,19 @@
 // })
 
 // Sticky Menu
-var header = document.getElementById("main-header");
-if (header) {
-  window.onscroll = function () {
-    stickyFun();
-  };
-  var bodyWrapper = document.querySelector(".main-body-wrapper");
-  var navPlaceholder = document.createElement("div");
-  navPlaceholder.classList.add("nav-placeholder");
-  bodyWrapper.prepend(navPlaceholder);
-  var sticky = header.offsetTop;
-  function stickyFun() {
-    if (window.pageYOffset >= sticky + 400) {
-      header.classList.add("sticky");
-      bodyWrapper.classList.add("header-sticky");
-      bodyWrapper.style.paddingTop = header.offsetHeight + "px";
-    } else {
-      header.classList.remove("sticky");
-      bodyWrapper.classList.remove("header-sticky");
-      bodyWrapper.style.paddingTop = "0px";
-    }
+// Sticky Menu
+window.addEventListener("scroll", function () {
+  let header = document.querySelector(".myHeader");
+
+  if (window.scrollY >= 200) {
+    console.log("hi");
+    // Add the 'fixed-header' class to make the header sticky
+    header.classList.add("fixed-header");
+  } else {
+    // Remove the 'fixed-header' class to unstick the header
+    header.classList.remove("fixed-header");
   }
-}
+});
 
 //Offcanvas Toggler
 const offcanvasToggler = document.querySelector("#offcanvas-toggler");

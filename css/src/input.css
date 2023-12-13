@@ -43,3 +43,9 @@
 .img-shadow {
   box-shadow: 9px 9px 1px 0px #ff7700;
 }
+
+.fixed-header {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+}
