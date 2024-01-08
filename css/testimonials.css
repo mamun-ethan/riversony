@@ -179,10 +179,10 @@ button {
     padding: 0;
   }
   .splide__list {
-    height: 400px;
+    height: 200px;
   }
   .slide-text {
-    font-size: 40px;
+    font-size: 25px;
   }
   .product-img {
     width: 140px;
